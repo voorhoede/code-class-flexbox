@@ -1,0 +1,24 @@
+{
+  "name": "code-class-flexbox",
+  "version": "1.0.0",
+  "description": "Code class about flexbox",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voorhoede/code-class-flexbox.git"
+  },
+  "keywords": [
+    "code",
+    "class",
+    "flexbox"
+  ],
+  "author": "Tjerk Smit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voorhoede/code-class-flexbox/issues"
+  },
+  "homepage": "https://github.com/voorhoede/code-class-flexbox#readme"
+}

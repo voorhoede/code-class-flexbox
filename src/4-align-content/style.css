@@ -26,11 +26,11 @@ html, body {  margin: 0;  padding: 0; }
 .container {
 	display: flex;
 	border: 4px solid hotpink;
-	height: 100vh; /* height is needed */
-	justify-content: center;
-	flex-direction: column;
+	height: 100vh;
+	flex-wrap: wrap; /* we need flex items on multiple lines */
+	/*align-content: flex-end;*/
 }
 
-.box-2 {
-	order: -1;
+.box {
+	width: 33.33%;
 }

@@ -24,7 +24,6 @@ html, body {  margin: 0;  padding: 0; }
 
 /* Flexbox stuff */
 .container {
-	display: flex;
 	border: 4px solid hotpink;
 	height: 100vh;
 }

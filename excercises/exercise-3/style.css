@@ -43,16 +43,24 @@ a:hover {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+/* Flex Item */
+.flex-nav li {
 
 }
 
+/* Flex Item */
+.flex-nav .social {
 
-@media all and (max-width:1000px) {
+}
+
+@media all and (min-width: 500px) {
 
 
 }
 
-@media all and (max-width:500px) {
+@media all and (min-width: 1000px) {
 
 
 }

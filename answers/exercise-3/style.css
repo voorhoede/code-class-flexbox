@@ -45,38 +45,32 @@ a:hover {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	display:flex;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-/* Flex Item */
 .flex-nav li {
-	flex:3;
+	flex:1 1 100%;
 }
 
 .flex-nav .social {
-	flex:1;
+	flex:1 1 25%;
 }
 
-
-@media all and (max-width:1000px) {
-
-	.flex-nav ul {
-		flex-wrap:wrap;
-	}
-
+@media all and (min-width: 500px) {
 	.flex-nav li {
 		flex:1 1 50%;
 	}
+}
+
+@media all and (min-width: 1000px) {
+	.flex-nav li {
+		flex:3;
+	}
 
 	.flex-nav .social {
-		flex:1 1 25%;
-	}
-
-}
-
-@media all and (max-width:500px) {
-
-	.flex-nav li {
-		flex-basis:100%;
+		flex:1;
 	}
 }
+
+

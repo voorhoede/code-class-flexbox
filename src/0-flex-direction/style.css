@@ -28,6 +28,8 @@ html, body {  margin: 0;  padding: 0; }
 	border: 4px solid hotpink;
 	flex-direction: row;
 	/*flex-direction: column;*/
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column-reverse;*/
 }
 
 

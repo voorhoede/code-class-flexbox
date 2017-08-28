@@ -22,12 +22,12 @@ html, body {  margin: 0;  padding: 0; }
 .box-9 { background:#2ecc71;}
 .box-10 { background:#16a085;}
 
+.box {
+	height: 150px; /* keep height 150 */
+}
+
 /* Flexbox stuff */
 .container {
 	border: 4px solid hotpink;
 	height: 100vh;
-}
-
-.box {
-	height: 250px; /* keep height 250 */
 }
